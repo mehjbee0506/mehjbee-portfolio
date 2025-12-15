@@ -11,7 +11,7 @@ export default function Intro() {
       >
         {/* Headline */}
         <p className="text-indigo-400 font-semibold tracking-wide uppercase">
-          Java Technical Lead • Technical Project Manager
+           Technical Project Manager / Java Technical Lead
         </p>
 
         <h1 className="mt-4 text-5xl md:text-6xl font-extrabold tracking-tight">
