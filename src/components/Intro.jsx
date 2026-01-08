@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Intro() {
   return (
-    <section className="min-h-[85vh] flex items-center justify-center px-6 pb-20">
+    <section className="min-h-[70vh] flex items-center justify-center px-6 pb-12">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -10,7 +10,7 @@ export default function Intro() {
         className="max-w-4xl text-center"
       >
         {/* Headline */}
-        <p className="text-indigo-400 uppercase font-semibold text-base font-medium mb-3">
+        <p className="mt-8 text-indigo-400 uppercase font-semibold text-base mb-3">
           Technical Project Manager | Banking & Fintech
         </p>
 
@@ -57,7 +57,7 @@ export default function Intro() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
-          className="mt-12 flex gap-4 justify-center"
+          className="mt-10 flex gap-4 justify-center"
         >
           <a
             href="#projects"
