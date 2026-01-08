@@ -11,27 +11,24 @@ export default function Intro() {
       >
         {/* Headline */}
         <p className="text-indigo-400 font-semibold tracking-wide uppercase">
-           Technical Project Manager / Java Technical Lead
+           Technical Project Manager | Banking & Fintech
         </p>
 
         <h1 className="mt-4 text-5xl md:text-6xl font-extrabold tracking-tight">
-          Building scalable systems.<br />
-          Leading high-impact teams.
+          Driving regulatory delivery.<br />
+          Modernizing banking platforms.
         </h1>
 
         <p className="mt-6 text-lg text-slate-400 leading-relaxed">
-          I help organizations design robust backend architectures,
-          modernize platforms using Java, Spring Boot, and AWS,
-          and deliver complex projects through strong technical leadership
-          and Agile execution.
+          I lead complex banking and fintech programs as a Technical Project Manager, driving end-to-end delivery using Agile and hybrid methodologies while owning planning, execution, risk management, and stakeholder coordination across cross-functional teams.
         </p>
 
         {/* STATS */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
           {[
             { value: "8+", label: "Years Experience" },
-            { value: "10+", label: "Enterprise Projects" },
-            { value: "5+", label: "Teams Led" },
+            { value: "13+", label: "Enterprise Projects and Regulatory Programs Delivered" },
+            { value: "5+", label: "Cross-Functional Teams Led" },
           ].map((stat, idx) => (
             <motion.div
               key={idx}
