@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Intro() {
   return (
@@ -11,23 +11,30 @@ export default function Intro() {
       >
         {/* Headline */}
         <p className="text-indigo-400 font-semibold tracking-wide uppercase">
-           Technical Project Manager | Banking & Fintech
+          Technical Project Manager | Banking & Fintech
         </p>
 
         <h1 className="mt-4 text-5xl md:text-6xl font-extrabold tracking-tight">
-          Driving regulatory delivery.<br />
+          Driving regulatory delivery.
+          <br />
           Modernizing banking platforms.
         </h1>
 
         <p className="mt-6 text-lg text-slate-400 leading-relaxed">
-          I lead complex banking and fintech programs as a Technical Project Manager, driving end-to-end delivery using Agile and hybrid methodologies while owning planning, execution, risk management, and stakeholder coordination across cross-functional teams.
+          I lead complex banking and fintech programs as a Technical Project
+          Manager, driving end-to-end delivery using Agile and hybrid
+          methodologies while owning planning, execution, risk management, and
+          stakeholder coordination across cross-functional teams.
         </p>
 
         {/* STATS */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
           {[
             { value: "8+", label: "Years Experience" },
-            { value: "13+", label: "Enterprise and Regulatory Programs Delivered" },
+            {
+              value: "13+",
+              label: "Enterprise and Regulatory Programs Delivered",
+            },
             { value: "8+", label: "Cross-Functional Teams Led" },
           ].map((stat, idx) => (
             <motion.div
@@ -40,9 +47,7 @@ export default function Intro() {
               <div className="text-3xl font-bold text-indigo-400">
                 {stat.value}
               </div>
-              <div className="mt-2 text-slate-400">
-                {stat.label}
-              </div>
+              <div className="mt-2 text-slate-400">{stat.label}</div>
             </motion.div>
           ))}
         </div>
@@ -69,6 +74,7 @@ export default function Intro() {
           </a>
         </motion.div>
       </motion.div>
+      <br></br>
     </section>
-  )
+  );
 }
