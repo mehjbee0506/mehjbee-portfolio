@@ -27,8 +27,8 @@ export default function Intro() {
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
           {[
             { value: "8+", label: "Years Experience" },
-            { value: "13+", label: "Enterprise Projects and Regulatory Programs Delivered" },
-            { value: "5+", label: "Cross-Functional Teams Led" },
+            { value: "13+", label: "Enterprise and Regulatory Programs Delivered" },
+            { value: "8+", label: "Cross-Functional Teams Led" },
           ].map((stat, idx) => (
             <motion.div
               key={idx}
