@@ -10,17 +10,17 @@ export default function Intro() {
         className="max-w-4xl text-center"
       >
         {/* Headline */}
-        <p className="text-indigo-400 font-semibold tracking-wide uppercase">
+        <p className="text-indigo-400 uppercase tracking-widest font-medium text-sm mb-3">
           Technical Project Manager | Banking & Fintech
         </p>
 
-        <h1 className="mt-4 text-5xl md:text-6xl font-extrabold tracking-tight">
+        <h1 className="mt-4 text-5xl md:text-6xl font-bold tracking-tight leading-tight">
           Driving regulatory delivery.
           <br />
           Modernizing banking platforms.
         </h1>
 
-        <p className="mt-6 text-lg text-slate-400 leading-relaxed">
+        <p className="mt-6 text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
           I lead complex banking and fintech programs as a Technical Project
           Manager, driving end-to-end delivery using Agile and hybrid
           methodologies while owning planning, execution, risk management, and
