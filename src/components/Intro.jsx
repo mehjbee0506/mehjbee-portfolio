@@ -10,7 +10,7 @@ export default function Intro() {
         className="max-w-4xl text-center"
       >
         {/* Headline */}
-        <p className="text-slate-400 uppercase tracking-[0.3em] text-xs mb-4">
+        <p className="text-indigo-400 uppercase font-semibold text-base font-medium mb-3">
           Technical Project Manager | Banking & Fintech
         </p>
 
