@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Intro() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section className="min-h-[85vh] flex items-center justify-center px-6 pb-20">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -10,11 +10,11 @@ export default function Intro() {
         className="max-w-4xl text-center"
       >
         {/* Headline */}
-        <p className="text-indigo-400 uppercase tracking-widest font-medium text-sm mb-3">
+        <p className="text-slate-400 uppercase tracking-[0.3em] text-xs mb-4">
           Technical Project Manager | Banking & Fintech
         </p>
 
-        <h1 className="mt-4 text-5xl md:text-6xl font-bold tracking-tight leading-tight">
+        <h1 className="mt-2 text-4xl md:text-5xl font-semibold tracking-tight leading-snug">
           Driving regulatory delivery.
           <br />
           Modernizing banking platforms.
@@ -74,7 +74,6 @@ export default function Intro() {
           </a>
         </motion.div>
       </motion.div>
-      <br></br>
     </section>
   );
 }
