@@ -27,10 +27,15 @@ const skills = [
   {
     title: "Technical & Architecture Awareness",
     items: [
+      "Java",
+      "Spring Boot",
+      "Hibernate / JPA",
+      "RESTful APIs",
       "Microservices Architecture",
       "Monolith to Microservices Migration",
       "API & Systems Integration",
       "Batch & File-Based Processing",
+      "SQL & Relational Databases",
       "Logging & Observability",
     ],
   },
@@ -47,7 +52,7 @@ const skills = [
       "Documentation & Knowledge Transfer",
     ],
   },
-]
+];
 
 export default function Skills() {
   return (
@@ -74,5 +79,5 @@ export default function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
